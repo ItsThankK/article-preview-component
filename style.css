@@ -26,6 +26,8 @@ html {
 
 body {
   font-size: 1.3rem;
+  font-family: var(--ff-manrope);
+  line-height: 1.1;
 }
 
 img {
