@@ -25,6 +25,7 @@ html {
 }
 
 body {
+  background-color: var(--clr-blue-100);
   font-size: 1.3rem;
   font-family: var(--ff-manrope);
   line-height: 1.1;
@@ -35,6 +36,27 @@ img {
   max-width: 100%;
 }
 
+.wrapper {
+  margin-inline: auto;
+  max-width: 80rem;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hidden {
   display: none;
+}
+
+.card {
+  max-width: 70rem;
+  
+  display: flex;
+  
+}
+
+.card__img-box {
+  max-width: 30%;
 }
