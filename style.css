@@ -149,10 +149,20 @@ img {
   filter: brightness(100);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .card {
     flex-direction: column;
     max-width: 50rem;
     margin-inline: 2rem;
+  }
+
+  .card__img-box {
+    border-radius: 1rem 1rem 0 0;
+    height: 33rem;
+  }
+
+  .card__content {
+    padding: 2rem 3rem;
+    border-radius: 0 0 1rem 1rem;
   }
 }
