@@ -132,7 +132,7 @@ img {
 .share {
   margin-left: auto;
   width: 4rem;
-  height: 100%;
+  height: 4rem;
   background-color: var(--clr-grey-100);
   border-radius: 50%;
 
