@@ -49,12 +49,18 @@ img {
 }
 
 .hidden {
-  display: none;
+  /* display: none; */  
+}
+
+.popup {
+  background-color: var(--clr-grey-700);
+  position: absolute;
 }
 
 .card {
   max-width: 70rem;
   display: flex;
+  position: relative;
 }
 
 .card__img-box {
