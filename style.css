@@ -48,13 +48,40 @@ img {
   align-items: center;
 }
 
-.hidden {
-  /* display: none; */  
-}
-
 .popup {
   background-color: var(--clr-grey-700);
+  padding: 2rem 3rem;
+  border-radius: 1rem;
   position: absolute;
+  top: 30%;
+  right: -9%;
+
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  z-index: 1;
+}
+
+.popup::after {
+  content: "";
+  width: 15%;
+  height: 50%;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  background-color: inherit;
+  transform: translate(-50%, -50%) rotate(45deg);
+  z-index: -1;
+}
+
+.popup p {
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-weight: var(--fw-large);
+}
+
+.hidden {
+  display: none;
 }
 
 .card {
