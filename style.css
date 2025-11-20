@@ -158,7 +158,7 @@ img {
 
   .card__img-box {
     border-radius: 1rem 1rem 0 0;
-    height: 33rem;
+    height: auto;
   }
 
   .card__content {
