@@ -158,7 +158,6 @@ img {
 
   .card__img-box {
     border-radius: 1rem 1rem 0 0;
-    height: auto;
   }
 
   .card__content {
@@ -192,11 +191,12 @@ img {
     display: none;
   }
 
-  .share-icon {
+  .share {
+    transform: translateY(17%);
     z-index: 100;
   }
 
   .share-icon-active {
-  filter: brightness(100);
-}
+    filter: brightness(100);
+  }
 }
